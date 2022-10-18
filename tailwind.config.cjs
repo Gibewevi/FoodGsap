@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'foodImg3' : "url('/image3.png')",
+        'foodImg1' : "url('image1.jpg')",
+      },
+      colors: {
+        'beige': '#E0B289',
+      },
+    },
   },
   plugins: [],
 }
